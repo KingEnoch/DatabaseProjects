@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFEC4529-66CB-AA02-B256-F91B7CCCE391" name="Minimum_Service">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>6F28A6FB-6CDD-EFA8-F009-7FE6C302FCDA</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="minimum_Service_ID" id="B7E7F11C-3FE4-A4BD-F220-938433494D55">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>D30289BD-1743-D84D-B907-2A857E9F3F8A</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C9585310-B4B0-83A6-FC46-A94696E05AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="m_Starters" id="2A34E6A7-8DFD-3F55-18B3-07AC5DDDE85F">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>540FECBA-5873-0954-6F50-EDB0C87B89DD</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84C1C992-C4F1-FB9A-0382-E42501CDB3DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mmain_Course" id="118BF062-0E59-E42E-2506-376FBC4B7E72">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>FFF812C9-F90F-AE8F-3D3D-5012ABF814F7</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D0AA5D47-A46B-F5E7-07A5-2A26EFE819A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="m_Coffee" id="090CC800-C0F0-F953-CA9E-1CFFD4E05184">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>25E1CC89-B06C-ECA2-5F42-EAEB3A7393A5</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA7553C9-0013-A50F-835E-2DEC18B0F4FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_client_ID" id="472E5D3C-27CA-754D-E523-9A948FCB7765">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>71E09454-BE7F-C1EA-C983-7AA2E968757D</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>27BEACC0-39F7-4CD4-9ACA-F149EC429D42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14D59704-B5FF-2A96-7B0F-DBBA90E4DF8F" referredColumn="B20F914D-510E-3DBE-0693-623EA8CB9826"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F092D735-9DAF-1AAB-6125-D3BFDE57D047" name="Minimum_Service_PK">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>D38A08AD-055A-CDDA-8B34-9BD41017D24A</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E7F11C-3FE4-A4BD-F220-938433494D55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB7E008C-95A8-6186-14DD-BD0A257C0E6F" name="Minimum_Service_Client_FK">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>49723148-F244-8D6E-4966-0E2645CF4DA0</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="472E5D3C-27CA-754D-E523-9A948FCB7765"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

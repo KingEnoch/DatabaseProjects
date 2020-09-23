@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="71E048E9-6CC4-2916-1643-7DA761FABAB1">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-05 18:20:29 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

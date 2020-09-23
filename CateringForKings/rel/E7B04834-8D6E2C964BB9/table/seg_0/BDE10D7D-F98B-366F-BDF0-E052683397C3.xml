@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDE10D7D-F98B-366F-BDF0-E052683397C3" name="Resources">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>5D943696-4DA8-E5C6-8F62-E9C44391ADC3</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="resource_ID" id="84D18ABC-D190-7271-D6AD-82E0135A9E38">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>4F4B6A47-18A8-9FD3-77B7-1308E2315ECF</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7AF47394-E792-B474-FAE5-B04B6CE21D78</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="r_Cutlery" id="9D80F5DB-91D4-E809-EC93-262FF6783B71">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>190985B8-E68F-9423-BB81-BC0EA3C94509</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C9CEE7B7-84BB-DB63-9AD4-798467447CD5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="r_Staff" id="AF5ED15E-2FDA-CC8D-E00C-DF30F3E81380">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>61334402-5DBC-AAFB-7F63-B5DCFEC64522</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B3519EB7-29FC-E7C1-0B6C-2D33617BB4FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="r_Vans" id="B7024EA5-517C-A59E-960B-572AF0CC5BB5">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>1578CB17-1750-2C44-3042-AFBD1424BA6A</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4AF3840-D3DB-5AFA-CED2-DC8E0E820E53</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="r_Tableware" id="3E14A01F-9A36-3399-9AB5-823E57F959B9">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>6C398240-AB73-0CA6-D847-E58D458283D8</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6479CB24-2911-43F0-D380-29AD14B47E66</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="r_Table" id="8B322DA5-4600-7A4D-AD51-6F694891D863">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>F094E371-9C92-A660-449B-895EB70AD9E4</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D099A717-FA0B-1038-5BFE-2A8A69C98672</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="r_Chairs" id="7CFAA0B3-EF39-37CD-5BC5-F0E1321967A5">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>ED798C41-7DE5-72E7-A807-54DD16F17A39</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>353CD426-492A-E130-4442-926DD8A79397</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_client_ID" id="21D8A10F-E6B1-C20D-E112-535F50F65225">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>0ADA50A0-FE92-CE82-BE59-5CB4F9D77EAA</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>27BEACC0-39F7-4CD4-9ACA-F149EC429D42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F92294C9-FF8C-254A-D646-A8E375AC9C80" referredColumn="B20F914D-510E-3DBE-0693-623EA8CB9826"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8771695A-4B74-8CBA-1C64-D213AAA07280" name="Resources_PK">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>7AEBEBD9-E02E-007E-CE67-F0B73E31862D</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84D18ABC-D190-7271-D6AD-82E0135A9E38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9036BAA6-54A3-6685-9362-4BA7CAC63786" name="Resources__IDX">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E5811AAF-F42B-3D2E-D17A-652183AB41DC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="21D8A10F-E6B1-C20D-E112-535F50F65225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C50FE4D5-7AB5-F2F8-F95C-946A1325E648" name="Resources_Client_FK">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>E5811AAF-F42B-3D2E-D17A-652183AB41DC</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21D8A10F-E6B1-C20D-E112-535F50F65225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

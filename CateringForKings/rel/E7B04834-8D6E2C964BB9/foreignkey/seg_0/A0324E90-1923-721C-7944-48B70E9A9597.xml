@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0324E90-1923-721C-7944-48B70E9A9597" containerWithKeyObject="F7E03888-0E2E-22B6-76DB-94B2042F3BFE" localFKIndex="B192C947-C0F3-0DAA-1CFE-AC68D493CF84" name="Full_Service_Client_FK">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:58:08 UTC</createdTime>
+<generatorID>96357DD4-0684-8AB3-4927-896EDB76DCDF</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<referredTableLongName>Client</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4E55686-F5F2-82B6-C252-4FB9D7FC0724</referredTableID>
+<keyObject>76834CA6-B032-06BD-17BB-AF1CA0C9FA87</keyObject>
+<referredKeyID>76834CA6-B032-06BD-17BB-AF1CA0C9FA87</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>client_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

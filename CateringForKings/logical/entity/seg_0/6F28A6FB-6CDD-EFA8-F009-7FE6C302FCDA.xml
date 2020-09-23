@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F28A6FB-6CDD-EFA8-F009-7FE6C302FCDA" name="Minimum Service">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 10:30:12 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="minimum_Service_ID" id="D30289BD-1743-D84D-B907-2A857E9F3F8A">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 10:30:33 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C9585310-B4B0-83A6-FC46-A94696E05AE5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m_Starters" id="540FECBA-5873-0954-6F50-EDB0C87B89DD">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 10:36:06 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84C1C992-C4F1-FB9A-0382-E42501CDB3DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mmain_Course" id="FFF812C9-F90F-AE8F-3D3D-5012ABF814F7">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 10:36:27 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D0AA5D47-A46B-F5E7-07A5-2A26EFE819A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="m_Coffee" id="25E1CC89-B06C-ECA2-5F42-EAEB3A7393A5">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 10:38:19 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA7553C9-0013-A50F-835E-2DEC18B0F4FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="client_ID" id="71E09454-BE7F-C1EA-C983-7AA2E968757D">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:27:22 UTC</createdTime>
+<generatorID>49723148-F244-8D6E-4966-0E2645CF4DA0</generatorID>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<referedAttribute>1A327836-48CD-F02D-9B43-5E0E201A800C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>27BEACC0-39F7-4CD4-9ACA-F149EC429D42</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D38A08AD-055A-CDDA-8B34-9BD41017D24A" name="Minimum Service PK">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 10:31:30 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D30289BD-1743-D84D-B907-2A857E9F3F8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

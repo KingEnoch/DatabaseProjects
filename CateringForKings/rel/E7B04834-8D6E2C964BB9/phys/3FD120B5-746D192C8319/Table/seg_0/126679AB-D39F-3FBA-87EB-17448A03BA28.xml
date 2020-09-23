@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Party_Service" directorySegmentName="seg_0" id="126679AB-D39F-3FBA-87EB-17448A03BA28">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="p_Starters" id="027AA034-A8C3-7440-810F-F6C4CED3485F">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="p_Beverages" id="17237A62-C005-3513-9324-8D102855413E">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pcheese_Platters" id="1B7452E2-A0E6-E836-9B75-28C0CF6F0E5B">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="party_Service_ID" id="58C7DACE-EA76-A28F-9B20-CFB1E05BC6DE">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Client_client_ID" id="92BDBD5E-9206-B833-FAE2-80BB563386B2">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="p_Desserts" id="EEED449E-4CC8-D493-9C38-64D48C017E15">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pmain_Course" id="FD9C53A0-0F77-175C-D9F1-0D00F778E406">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Party_Service_Client_FK" id="F307B1EE-A8E1-5D82-ECA7-160EA1FAC76B">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Party_Service_PK" id="A194DCFC-1389-C445-EA2E-7B3AB910DC21">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

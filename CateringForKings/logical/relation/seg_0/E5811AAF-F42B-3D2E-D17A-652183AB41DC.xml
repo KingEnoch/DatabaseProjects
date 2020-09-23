@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Client to Resources" directorySegmentName="seg_0" id="E5811AAF-F42B-3D2E-D17A-652183AB41DC">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:39:03 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<sourcePk>86CD739D-C473-BB2D-A6AF-48146EDD9833</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CB53A07-BDE6-C304-0965-951DC72FB730</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5D943696-4DA8-E5C6-8F62-E9C44391ADC3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
