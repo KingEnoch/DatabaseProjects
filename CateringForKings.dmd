@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CateringForKings" id="6DCAE3A5-08F4-B351-3F68-9A347D5088F3" version="3.5">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-05 18:20:29 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6DCAE3A5-08F4-B351-3F68-9A347D5088F3</designId>
+</OSDM_Design>
