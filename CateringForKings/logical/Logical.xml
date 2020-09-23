@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9517C953-5FD0-7530-8E33-2DFF13BB803A" mainViewID="806D6561-40A7-F567-6E21-61C9E98641B5">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-05 18:20:29 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

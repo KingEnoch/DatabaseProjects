@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Patrty Main To Full Main" directorySegmentName="seg_0" id="3B04D647-F033-C0D2-5D69-FC461AD08CA1">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:46:20 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<sourcePk>8FABC150-A4D6-40C3-FE39-49001C25A619</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>82EC94A3-6B88-608C-CA3B-2049943418E3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4812770D-0B36-B542-8D44-788D3231E976</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

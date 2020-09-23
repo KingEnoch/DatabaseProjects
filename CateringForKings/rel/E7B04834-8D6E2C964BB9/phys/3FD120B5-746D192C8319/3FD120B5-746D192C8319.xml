@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c" name="Oracle Database 12c" id="A3A8A2CE-E53A-C44F-584C-D6AEEF2E4E99" siteID="3FD120B5-9F4E-6278-D5E2-746D192C8319" siteName="Oracle Database 12c" siteType="11">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 17:01:08 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+</StorageDesignOraclev12c>

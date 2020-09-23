@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Catering For Kings" id="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" mainViewID="681772A6-00F7-DBFE-1E05-42337E139B06">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-05 18:20:30 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

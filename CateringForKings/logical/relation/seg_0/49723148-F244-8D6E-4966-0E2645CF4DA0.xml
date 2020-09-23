@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Client To Minimun Service" directorySegmentName="seg_0" id="49723148-F244-8D6E-4966-0E2645CF4DA0">
+<createdBy>The Noch</createdBy>
+<createdTime>2020-04-06 15:27:22 UTC</createdTime>
+<ownerDesignName>CateringForKings</ownerDesignName>
+<engineerTo>
+<item key="E7B04834-F3B4-BE2F-0641-8D6E2C964BB9" value="true"/>
+</engineerTo>
+<sourcePk>86CD739D-C473-BB2D-A6AF-48146EDD9833</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9CB53A07-BDE6-C304-0965-951DC72FB730</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F28A6FB-6CDD-EFA8-F009-7FE6C302FCDA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
